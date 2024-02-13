@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <form action="cadastro.php" method="post">
+
+    <p>
+        <label for="icolor">Escolha uma cor:</label>
+        <input type="color" name="color" id="icolor" value="green" > <!--Posso colocar um código de cor dentro do valuel para aparecer assim que o usuário abrir a página-->
+    </p>
+    <p>
+         <label for="inivel">O quanto você gosta dessa cor?</label>
+        <input type="range" name="nivel" id="inivel">
+    </p>
+    <p>
+        <label for="img">Carrega uma imagem que você goste:</label> <br>
+        <input type="file" name="imagem" id="img">
+    </p>
+    <p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </p>
+    </form>
+    
+    
+</body>
+</html>
